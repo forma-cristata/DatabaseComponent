@@ -1,0 +1,6 @@
+#table-container{
+  width: 90vw;
+  height: 75vh;
+  overflow: scroll;
+  margin-top: calc(25vh/2);
+}
