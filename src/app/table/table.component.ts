@@ -1,8 +1,10 @@
 import { Component } from '@angular/core';
+import {NgOptimizedImage} from '@angular/common';
 
 @Component({
   selector: 'app-table',
-  imports: [],
+  imports: [
+  ],
   templateUrl: './table.component.html',
   standalone: true,
   styleUrl: './table.component.css'

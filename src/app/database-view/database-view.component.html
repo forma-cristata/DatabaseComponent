@@ -1,1 +1,24 @@
-<div id="table-container" class="container"><app-table /></div>
+
+
+<div id="table-container" class="container">
+  <div class="ali-content w-25">
+  <div class="dropdown">
+    <select class="form-select w-100" aria-label="Default select example">
+      <option selected>Select an Attribute</option>
+      <option value="1">Product ID</option>
+      <option value="2">Product Name</option>
+      <option value="3">Product Price</option>
+      <option value="3">Product Description</option>
+      <option value="3">Product Location</option>
+      <option value="3">Product Something</option>
+    </select>
+  </div>
+  <div class="form-floating w-100 ali-content">
+    <input id="input-search" class="form-control" placeholder=""/>
+    <label for="input-search"><img alt="search-icon" ngSrc="/searchIcon.png" class="mb-1" height="20" width="24" />Search</label>
+  </div>
+  </div>
+  <div class="xxx">
+  <app-table />
+  </div>
+</div>

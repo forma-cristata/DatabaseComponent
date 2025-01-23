@@ -1,1 +1,26 @@
-<div id="table-div"></div>
+<div id="table-div" class="mt-2">
+  <table class="table table-borderless table-striped table-hover">
+    <thead>
+    <tr>
+      <th class="attributes">Product ID</th>
+      <th class="attributes">Product Name</th>
+      <th class="attributes">Product Price</th>
+      <th class="attributes">Product Description</th>
+      <th class="attributes">Product Location</th>
+      <th class="attributes">Product Something</th>
+    </tr>
+    </thead>
+    <tbody>
+    @for(i of [].constructor(50); track $index) {
+    <tr>
+      <th>001</th>
+      <td>Hacksaw</td>
+      <td>$50.00</td>
+      <td>It hacks things up</td>
+      <td>State College</td>
+      <td>Something</td>
+    </tr>
+      }
+    </tbody>
+  </table>
+</div>
